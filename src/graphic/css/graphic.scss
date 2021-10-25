@@ -1,1 +1,22 @@
 // Graphics CSS goes here
+.state-game-source {
+    text-decoration: none;
+    color: gray;
+}
+
+#state-game-timer {
+    margin-bottom: 0.5rem;
+    font-family: $sans;
+    display: flex;
+}
+
+.interval {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number {
+    font-size: 2rem;
+}
