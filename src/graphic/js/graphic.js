@@ -4,7 +4,7 @@ import { interval, selectAll, select, format } from "d3";
 import { DateTime } from "luxon";
 
 const draw = () => {
-  const last = DateTime.fromISO("2005-09-30T20:30");
+  const last = DateTime.fromISO("2004-10-29T20:00");
   const intervals = ["years", "months", "days", "hours", "minutes", "seconds"];
   interval(() => {
     const now = DateTime.fromJSDate(new Date());
